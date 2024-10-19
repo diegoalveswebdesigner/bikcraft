@@ -8,17 +8,18 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url("../../img/dec/top-right.svg") no-repeat top 40px right 20px;
 }
 
-.bicicletas-img {
+.bicicletas-imagem {
   display: grid;
 }
 
-.bicicletas-img img {
+.bicicletas-imagem img {
   grid-area: 1/1;
 }
 
-.bicicletas-img span {
+.bicicletas-imagem span {
   grid-area: 1/1;
   place-self: start end;
   margin-top: 20px;
